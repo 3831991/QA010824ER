@@ -41,7 +41,7 @@ label {
     display: block;
 }
 
-input {
+input:not([type=checkbox]):not([type=radio]), select, textarea {
     padding: 10px;
     width: 100%;
     margin-bottom: 14px;
@@ -65,4 +65,20 @@ form {
     padding: 16px;
     /* גודל הטקסט */
     font-size: 24px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 30px;
+    background: aquamarine;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.05;
+    cursor: pointer;
 }
