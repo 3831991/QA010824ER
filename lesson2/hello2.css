@@ -2,16 +2,22 @@ body {
     /* כיוון האתר */
     direction: rtl;
     /* רקע של האתר */
-    background-color: #004f80;
+    background-color: #aaaaaa;
+    /* פונט */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://files.mishloha.co.il/files/rest_header/MNRH_766_1680513418165.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
-    /* צבע הטקסט */
-    color: white;
-    /* יישור טקסט */
     text-align: center;
-    /* פונט */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    color: #d46e16;
+    width: 400px;
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 div {
@@ -19,6 +25,36 @@ div {
     min-height: 500px;
     /* מקסימום רוחב */
     max-width: 80%;
+    /* רקע */
+    background-color: white;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז) */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 6px;
+    /* ריווח פנימי */
+    padding: 16px;
+    /* גודל הטקסט */
+    font-size: 24px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 14px;
+    border: 1px solid #919191;
+    font-size: 22px;
+    margin-top: 8px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+form {
+    /* מקסימום רוחב */
+    width: 400px;
     /* רקע */
     background-color: white;
     /* ריווח חיצוני אוטומטי (לצורך מרכוז) */
