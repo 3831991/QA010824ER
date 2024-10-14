@@ -25,4 +25,8 @@ div {
     margin: auto;
     /* עיגול קצוות */
     border-radius: 6px;
+    /* ריווח פנימי */
+    padding: 16px;
+    /* גודל הטקסט */
+    font-size: 24px;
 }
