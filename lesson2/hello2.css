@@ -1,9 +1,28 @@
 body {
+    /* כיוון האתר */
     direction: rtl;
-    background-color: teal;
+    /* רקע של האתר */
+    background-color: #004f80;
 }
 
 h1 {
+    /* צבע הטקסט */
     color: white;
+    /* יישור טקסט */
     text-align: center;
+    /* פונט */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    /* מינימום גובה */
+    min-height: 500px;
+    /* מקסימום רוחב */
+    max-width: 80%;
+    /* רקע */
+    background-color: white;
+    /* ריווח חיצוני אוטומטי (לצורך מרכוז) */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 6px;
 }
